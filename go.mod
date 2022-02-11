@@ -1,4 +1,4 @@
-module test_stockbit
+module test_kasir_pintar
 
 go 1.17
 

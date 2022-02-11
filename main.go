@@ -1,8 +1,8 @@
 package main
 
 import (
-	middlewares "test_stockbit/middleware"
-	"test_stockbit/routes"
+	middlewares "test_kasir_pintar/middleware"
+	"test_kasir_pintar/routes"
 )
 
 func main() {

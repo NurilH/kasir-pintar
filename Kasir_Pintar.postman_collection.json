@@ -1,0 +1,36 @@
+{
+	"info": {
+		"_postman_id": "bbaef885-32f3-4f34-ba20-cffb1c4d5f0f",
+		"name": "Kasir_Pintar",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Registrasi Virtual Account BCA",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"bankCd\": \"CENA\",\r\n    \"payMethod\": \"02\",\r\n    \"currency\": \"IDR\",\r\n    \"amt\": \"200000\",\r\n    \"goodsNm\": \"Test Transaction Virtual Account Nicepay\",\r\n    \"billingNm\": \"Nuril huda\",\r\n    \"billingPhone\": \"12345678\",\r\n    \"billingEmail\": \"email@merchant.com\",\r\n    \"billingAddr\": \"Jalan Bukit Berbunga 22\",\r\n    \"billingCity\": \"Jakarta\",\r\n    \"billingState\": \"DKI Jakarta\",\r\n    \"billingPostCd\": \"12345\",\r\n    \"billingCountry\": \"Indonesia\",\r\n    \"dbProcessUrl\": \"http://ptsv2.com/t/0ftrz-1519971382/post\",\r\n    \"reqDomain\": \"merchant.com\",\r\n    \"reqServerIP\": \"127.0.0.1\",\r\n    \"userIP\": \"127.0.0.1\",\r\n    \"userSessionID\": \"697D6922C961070967D3BA1BA5699C2C\",\r\n    \"userAgent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,like Gecko) Chrome/60.0.3112.101 Safari/537.36\",\r\n    \"userLanguage\": \"ko-KR,en-US;q=0.8,ko;q=0.6,en;q=0.4\",\r\n    \"cartData\": \"{}\",\r\n    \"vacctValidDt\": \"\",\r\n    \"vacctValidTm\": \"\",\r\n    \"merFixAcctId\": \"\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/registrasi",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"registrasi"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
